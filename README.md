@@ -17,7 +17,7 @@ The executable takes in one required parameter, and one optional
 * Without debugging messages  
 ```
 $ ./NQueens.out 8
-  0 1 2 3 4 5 6 7
+	0 1 2 3 4 5 6 7
 0 q . . . . . . .
 1 . . . . . . q .
 2 . . . . q . . .
@@ -48,9 +48,14 @@ Queen at 1,1 would be killed by 0,1
 Queen at 1,2 would be killed by 0,1
 Queen at 3,0 would be killed by 2,0
 Queen at 3,1 would be killed by 0,1
-  0 1 2 3
+	0 1 2 3
 0 . . q .
 1 q . . .
 2 . . . q
 3 . q . .
 ```
+
+## Potential improvements
+* Making a second implementation for faster searching
+* Try listing other solutions
+* Fix solutions for `N`<4
