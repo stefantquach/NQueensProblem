@@ -57,6 +57,8 @@ Queen at 3,1 would be killed by 0,1
 
 ## Potential improvements
 * Making a second implementation for faster searching
+  * Greedy DFS
+  * Hill Climbing algorithm
 * Try listing other solutions
 * Fix solutions for `N`<4
 
