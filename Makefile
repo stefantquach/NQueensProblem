@@ -1,5 +1,5 @@
 CC=g++
 CFLAGS=-Wall -I. -std=c++11
 
-NQueens.o: nqueens.cpp
+NQueens.out: nqueens.cpp
 	$(CC) $(CFLAGS) -o $@ $^
