@@ -59,3 +59,6 @@ Queen at 3,1 would be killed by 0,1
 * Making a second implementation for faster searching
 * Try listing other solutions
 * Fix solutions for `N`<4
+
+## Current Issues
+* Printing is broken for `N`>=20
